@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scheduingAlgorithms"
+version = "0.0.1"
+authors = [
+  { name="Janath Jsk", email="jskutility22@gmail.com" },
+]
+description = "This package provide scheduling algorithms. Whick can be used to simulate the order in which process 
+executing, turn around time, wait time."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
